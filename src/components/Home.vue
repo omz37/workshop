@@ -9,15 +9,24 @@
 </template>
 
 <script>
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-
-Vue.use(VueRouter)
 
 export default {
-    name: 'HelloWorld',
+  name: 'HelloWorld',
+  components: {},
 
+  data() {
+    return {
+      //variables
+    }
   }
+
+
+}
+
+// methods: {
+  //your methods
+// }
+
 </script>
 
 <style>
